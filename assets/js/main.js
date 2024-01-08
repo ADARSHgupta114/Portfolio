@@ -228,7 +228,7 @@ app.contact = {
         var data = {
           service_id: "service_12ir04b",
           template_id: "template_wnxlxit", // keys from email.js
-          user_id: "user_YEwz_5GPA8l2yVL6jPI-_", // keys from email.js
+          user_id: "user_9XjiY9H0vx33FSMU5vKAO", // keys from email.js
           template_params: {
             name: inputs["name"].value,
             subject: inputs["subject"].value,
@@ -430,7 +430,7 @@ app.text = {
   },
 };
 window.goBack = function (e) {
-  var defaultLocation = "http://gajicslobodan.ga";
+  var defaultLocation = "";
   var oldHash = window.location.hash;
   history.back();
   var newHash = window.location.hash;
